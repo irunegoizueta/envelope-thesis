@@ -1,0 +1,30 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Master_Thesis_Irune_Goizueta.aux
+A level-1 auxiliary file: Titlepage.aux
+A level-1 auxiliary file: Contents.aux
+A level-1 auxiliary file: Abstract.aux
+A level-1 auxiliary file: 1_robot_intro/CPR_intro.aux
+A level-1 auxiliary file: 1_robot_intro/CPR_ROS.aux
+A level-1 auxiliary file: 1_robot_intro/CPR_motion_planning.aux
+A level-1 auxiliary file: 1_robot_intro/CPR_algorithm.aux
+A level-1 auxiliary file: 1_robot_intro/CPR_experiments.aux
+A level-1 auxiliary file: 1_robot_intro/CPR_conclusion.aux
+A level-1 auxiliary file: 1_robot_intro/CPR_budget.aux
+The style file: plain.bst
+Database file #1: Bibliography.bib
+I was expecting a `,' or a `}'---line 107 of file Bibliography.bib
+ :   
+ :   Publisher={OEIS Foundation}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in ros
+Warning--to sort, need author or key in wikiros
+Warning--to sort, need author or key in moveit
+Warning--to sort, need author or key in urpackage
+Warning--to sort, need author or key in robotiq
+Warning--empty school in fanson2010robotic
+Warning--empty journal in o2014gentle
+Warning--empty publisher in sloane
+Warning--empty year in sloane
+Warning--empty journal in weisstein2003pedal
+Warning--empty journal in yue2001manipulating
+(There was 1 error message)

@@ -1,0 +1,113 @@
+\begin{thebibliography}{10}
+
+\bibitem{moveit}
+Moveit!
+\newblock \url{https://moveit.ros.org/}.
+\newblock Accessed: 2017-11-13.
+
+\bibitem{robotiq}
+robotiq.
+\newblock \url{http://wiki.ros.org/robotiq}.
+\newblock Accessed: 2017-10-22.
+
+\bibitem{ros}
+Ros.
+\newblock \url{http://www.ros.org/}.
+\newblock Accessed: 2017-10-20.
+
+\bibitem{wikiros}
+Ros.
+\newblock \url{http://wiki.ros.org/ROS/Introduction}.
+\newblock Accessed: 2017-10-20.
+
+\bibitem{urpackage}
+universalrobot.
+\newblock \url{http://wiki.ros.org/universal\_robot}.
+\newblock Accessed: 2017-10-22.
+
+\bibitem{cashmore2015rosplan}
+Michael Cashmore, Maria Fox, Derek Long, Daniele Magazzeni, Bram Ridder, Arnau
+  Carrera, Narcis Palomeras, Natalia Hurtos, and Marc Carreras.
+\newblock Rosplan: Planning in the robot operating system.
+\newblock In {\em ICAPS}, pages 333--341, 2015.
+
+\bibitem{cormen2009introduction}
+Thomas~H Cormen.
+\newblock {\em Introduction to algorithms}.
+\newblock MIT press, 2009.
+
+\bibitem{fanson2010robotic}
+Richard Fanson.
+\newblock {\em Robotic Manipulation of Deformable Objects Using Robust Output
+  Regulation}.
+\newblock PhD thesis, 2010.
+
+\bibitem{holland1957archimedes}
+HC~Holland.
+\newblock The archimedes spiral.
+\newblock {\em Nature}, 179(4556):432, 1957.
+
+\bibitem{koubaa2016robot}
+Anis Koubaa.
+\newblock {\em Robot operating system (ros): The complete reference}, volume~1.
+\newblock Springer, 2016.
+
+\bibitem{mccleary2013geometry}
+John McCleary.
+\newblock {\em Geometry from a differentiable viewpoint}.
+\newblock Cambridge University Press, 2013.
+
+\bibitem{murray2017mathematical}
+Richard~M Murray.
+\newblock {\em A mathematical introduction to robotic manipulation}.
+\newblock CRC press, 2017.
+
+\bibitem{o2014gentle}
+Jason~M O'Kane.
+\newblock A gentle introduction to ros.
+\newblock 2014.
+
+\bibitem{robotiq2014gripper}
+Robotiq.
+\newblock {\em Robotiq 3-Finger Adaptative Robot Gripper Instruction Manual}.
+\newblock Robotiq, 2014.
+
+\bibitem{robotiq2016ftsensor}
+Robotiq.
+\newblock {\em Robotiq Force Torque Sensor FT 150/300 Instruction Manual}.
+\newblock Robotiq, 2016.
+
+\bibitem{universalrobots2014ur10}
+Universal Robots.
+\newblock {\em UR10/CB3 User Manual}.
+\newblock Universal Robots, 2014.
+
+\bibitem{saha2007manipulation}
+Mitul Saha and Pekka Isto.
+\newblock Manipulation planning for deformable linear objects.
+\newblock {\em IEEE Transactions on Robotics}, 23(6):1141--1150, 2007.
+
+\bibitem{sloane}
+N.J.A. Sloane.
+\newblock "sequence a091154".
+\newblock In {\em The On-Line Encyclopedia of Integer Sequences}.
+
+\bibitem{weisstein2003pedal}
+Eric~W Weisstein.
+\newblock Pedal curve.
+\newblock 2003.
+
+\bibitem{yue2001manipulating}
+Shigang Yue and Dominik Henrich.
+\newblock Manipulating deformable linear objects: Force/torque sensor-based
+  adjustment-motions for vibration elimination.
+\newblock 2001.
+
+\bibitem{yue2002manipulating}
+Shigang Yue and Dominik Henrich.
+\newblock Manipulating deformable linear objects: sensor-based fast
+  manipulation during vibration.
+\newblock In {\em Robotics and Automation, 2002. Proceedings. ICRA'02. IEEE
+  International Conference on}, volume~3, pages 2467--2472. IEEE, 2002.
+
+\end{thebibliography}

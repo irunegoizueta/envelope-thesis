@@ -1,0 +1,140 @@
+%preámbulo de latex para apuntes
+% añado paquetes interesantes
+\usepackage[titles]{tocloft} %para reformatear los ´indices
+\usepackage[latin1]{inputenc}  % caracteres con acentos
+\usepackage{latexsym}  % para símbolos
+\usepackage{amsmath} %para tener más fórmulas matemáticas
+\usepackage{amssymb} %más símbolos
+\usepackage{mathrsfs} %más símbolos
+\usepackage{amsfonts} %más símbolos
+\usepackage[pdftex]{graphicx}  % para poder incluir gráficos
+%\usepackage[pdftex, draft]{graphicx}  % para poder incluir gráficos, pero no los muestra
+%\usepackage{subfigure} %para poder incluir subfiguras
+\usepackage[all] {xy}
+\usepackage{bookman}   % cambio a un font más atractivo
+%\usepackage{mathptmx}  % font times, que es el mostrado por word
+\usepackage{color}  %para poder usar colores
+%\usepackage{pstricks} % para poder pintar diagramas
+\usepackage{url} %para utilizar el comando url que permite poner direcciones webs
+%\usepackage[spanish]{babel} %para poner en castellano los títulos automáticos
+\usepackage{marvosym} % Para el euro
+\usepackage{titlesec}  % para poder cambiar la apariencia de los títulos
+\usepackage{makeidx}  %para hacer un índice alfabético
+\makeindex %habilita los comandos del índice
+\usepackage{fancyhdr}  % para poder definir unas cabeceras y pies de página bonitos 
+\usepackage{pdfpages} %para poder incluir pdfs completos
+\usepackage{wallpaper} %para poner una portada bonita y fondos en cualquier p'agina
+\usepackage{nomencl}
+\usepackage{capt-of}  % permite poner captions fuera de elementos flotantes.
+%\usepackage{tocloft} 
+%\makeglossary
+%\usepackage[nodisplayskipstretch]{setspace}
+%\setstretch{1.5}
+\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{longtable}
+\usepackage{tabu}
+\usepackage[autostyle=true]{csquotes}
+%\setdefaultlanguage{english}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+\makeatletter
+\def\BState{\State\hskip-\ALG@thistlm}
+\makeatother
+
+% modificaci´on del formato del ´indice
+\setlength{\cftchapnumwidth}{1.9em} %para evitar el solape de los números de cap´itulossecciones por encima de 100 en el índice
+\setlength{\cftsecnumwidth}{2.8em} %para evitar el solape de los números de secciones por encima de 100 en el índice
+\setlength{\cftsubsecnumwidth}{4em} %para evitar el solape de los números de subsecciones por encima de 100 en el índice
+\setlength{\cftfignumwidth}{3em} %para evitar el solape de los números de figuras por encima de 100 en el índice
+\setlength{\cfttabnumwidth}{3em} %para evitar el solape de los números de tablas por encima de 100 en el índice
+
+%\usepackage{glossary/gloss}     % para añadir un glosario de términos. Comentado por que no está en el paquete básico de latex
+
+
+%dimensiones y márgenes de la página. Se pueden usar como unidades mm en lugar de in
+ \setlength\topmargin{0in} %Margin at top of page above all printing. Add 1 inch (so that, for example, setting \topmargin to 0.25in would produce a top margin of 1.25 inches).
+\setlength\headheight{14pt}  % 	Height of the header (the header is text that appears atop all pages).
+
+\setlength\headsep{0.25in}  %Distance from bottom of header to the body of text on a page.
+\setlength\textheight{9in} %Height and width of main text box
+\setlength\textwidth{6.5in}
+\setlength\oddsidemargin{0in} %Left margin on odd numbered pages. Add 1 inch (as with \topmargin).
+\setlength\evensidemargin{0in} %Left margin on even numbered pages. Add 1 inch (as with \topmargin).
+\setlength\parindent{0.25in} % Amount of indentation at the first line of a paragraph.
+\setlength\parskip{0.125in}  % 	Distance between paragraphs.
+\setlength\lineskip{0.125in}  % Distance between lines.
+
+%diseño de cabeceras y pies de página
+\pagestyle{fancyplain} %páginas con encabezado y pie
+
+\fancyhf{} % borrado de todos los ajustes previos
+
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter. #1}{}} %configuración de las cabecerar
+\renewcommand{\sectionmark}[1]{\markright{\thesection. #1}}
+
+
+%\******[\fancyplain{página 1&página impar}{página impar}]    {\fancyplain{1&página par}{página par}} 
+
+\lhead[\fancyplain{}{\thepage}]       {\fancyplain{}{\rightmark}} 
+
+\chead[\fancyplain{}{}]       {\fancyplain{}{}}
+
+\rhead[\fancyplain{}{\leftmark}]       {\fancyplain{}{\thepage}}
+
+\lfoot[\fancyplain{}{}]       {\fancyplain{}{}}
+
+\cfoot[\fancyplain{\thepage}{}]       {\fancyplain{\thepage}{}}
+
+\rfoot[\fancyplain{} {}]      {\fancyplain{}{}}
+
+\renewcommand{\headrulewidth}{0 pt} %modifica el ancho de las líneas de cabecera 
+\renewcommand{\footrulewidth}{0 pt} % el pie sin línea
+
+%formateo de la apariencia de los títulos de capítulo
+
+\newcommand{\bigrule}{\titlerule[0.5mm]}
+
+\titleformat{\chapter}[display] % cambiamos el formato de los capítulos
+{\bfseries\Huge} % por defecto se usarán caracteres de tamaño \Huge en negrita
+{% contenido de la etiqueta
+ %\titlerule % línea horizontal
+ \filleft % texto alineado a la derecha
+ \Large\chaptertitlename\ % "Capítulo" o "Apéndice" en tamaño \Large en lugar de \Huge
+ \Large\thechapter} % número de capítulo en tamaño \Large
+{0mm} % espacio mínimo entre etiqueta y cuerpo
+{\filleft} % texto del cuerpo alineado a la derecha
+[\vspace{0.5mm} \bigrule] % después del cuerpo, dejar espacio vertical y trazar línea horizontal gruesa
+
+%configuración para poder tener una lista de notación
+%\newcommand{\listofnotation}{\input CPR_symbols.tex \clearpage}
+%\newcommand{\addnotation} [3]{$ #1 $ \> \parbox{6.25in}{#2 \dotfill  \pageref{#3}}\\}
+%\newcommand{\newnot}[1]{\label{#1}}
+
+
+%otras configuraciones interesantes
+\sloppy  %suaviza las reglas de ruptura de líneas de Latex
+\frenchspacing %usar espaciado normal después de punto
+
+%enumeración de los ejercicios
+\newcounter{exercise}[chapter]
+\newcommand{\exerciseNumber}{Exercise \stepcounter{exercise} \thechapter.\theexercise}
+\newcommand{\refExerciseNumber}{exercise \thechapter.\theexercise}
+
+\newcounter{solExercise}[chapter]
+\newcommand{\solExerciseNumber}{Solution to exercise \stepcounter{solExercise} \thechapter.\thesolExercise}
+\newcommand{\refSolExerciseNumber}{Solution to exercise \thechapter.\thesolExercise}
+
+%poniendo bonitas las tablas
+
+\usepackage{booktabs} %para cambiar el grosor de l�neas
+%\toprule[0.08em]
+%\midrule[0.05em]
+%\bottomrule[0.08em]
+\usepackage{array} %para poder alinear verticalmente en tablas
+%p{5cm} %top
+%b{5cm} %bottom
+%m{5cm} %middle

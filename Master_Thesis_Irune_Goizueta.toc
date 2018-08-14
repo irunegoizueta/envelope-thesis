@@ -1,0 +1,35 @@
+\contentsline {chapter}{ABSTRACT}{ix}
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}
+\contentsline {section}{\numberline {1.2}Project Goal}{2}
+\contentsline {chapter}{\numberline {2}ROS AND MOVEIT!}{7}
+\contentsline {section}{\numberline {2.1}Introduction to ROS}{7}
+\contentsline {section}{\numberline {2.2}MoveIt!}{9}
+\contentsline {section}{\numberline {2.3}How to control to UR10, Robotiq 3 finger gripper and Robotiq FT300 force/torque sensor through ROS}{10}
+\contentsline {chapter}{\numberline {3}MOTION PLANNING}{11}
+\contentsline {section}{\numberline {3.1}Involute of a circle}{11}
+\contentsline {section}{\numberline {3.2}Archimedean spiral}{12}
+\contentsline {section}{\numberline {3.3}Comparison between involute of a circle and Archimedean spiral}{13}
+\contentsline {chapter}{\numberline {4}THE ALGORITHM}{17}
+\contentsline {section}{\numberline {4.1}Initial configuration}{17}
+\contentsline {section}{\numberline {4.2}Algorithm}{18}
+\contentsline {subsection}{\numberline {4.2.1}Flowchart}{18}
+\contentsline {subsection}{\numberline {4.2.2}Pseudocode}{20}
+\contentsline {subsection}{\numberline {4.2.3}Examples}{23}
+\contentsline {chapter}{\numberline {5}EXPERIMENTAL RESULTS}{27}
+\contentsline {section}{\numberline {5.1}Experiment 1: Why use torque values instead of force}{27}
+\contentsline {subsection}{\numberline {5.1.1}Comparison between force values and torque values}{28}
+\contentsline {subsection}{\numberline {5.1.2}Threshold value for torque}{30}
+\contentsline {section}{\numberline {5.2}Experiment 2: Minimum radius of the pivots}{33}
+\contentsline {subsection}{\numberline {5.2.1}Radius = 4 mm}{33}
+\contentsline {subsection}{\numberline {5.2.2}Radius = 3 mm}{34}
+\contentsline {subsection}{\numberline {5.2.3}Radius = 2 mm}{34}
+\contentsline {section}{\numberline {5.3}Experiment 3: Minimum distance between pivots}{35}
+\contentsline {subsection}{\numberline {5.3.1}Distance = 4.25 cm}{35}
+\contentsline {subsection}{\numberline {5.3.2}Distance = 3.5 cm}{36}
+\contentsline {subsection}{\numberline {5.3.3}Distance = 3 cm}{37}
+\contentsline {section}{\numberline {5.4}Experiment 4: Comparison of robot fail ratio with human fail ratio}{37}
+\contentsline {chapter}{\numberline {6}CONCLUSION AND FUTURE LINES}{41}
+\contentsline {section}{\numberline {6.1}Conclusion}{41}
+\contentsline {section}{\numberline {6.2}Future Lines}{41}
+\contentsline {chapter}{\numberline {7}BUDGET}{43}

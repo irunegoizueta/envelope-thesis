@@ -1,0 +1,131 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%      Apuntes de la asignatura de Control y Programación de Robots
+%       Robot Control and Programming: Class notes
+%      Autor: Emilio José Sánchez Tapia
+%      Fecha: Junio 2008
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% el documento tiene estructura de libro
+\documentclass[a4paper,twoside, 11pt]{book}
+
+%configuraciones de idioma, márgenes y encabezados
+\input{preamble}
+
+\newcommand{\CPRindex}[1]{\textit{\textbf{#1}}\index{#1}}
+
+\hyphenpenalty 1000
+
+\begin{document}
+
+
+%añade portada
+\frontmatter
+\graphicspath{{./}}
+\include{Titlepage}
+\include{Contents}
+\include{Abstract}
+
+%comienzo del libro
+\mainmatter
+
+
+%Configuración particular de las cabeceras y pies de página del mainmatter
+\renewcommand{\chaptermark}[1]{\markboth{Chapter \thechapter. #1}{}} %configuración de las cabeceras
+\renewcommand{\sectionmark}[1]{\markright{Section \thesection. #1}}
+\renewcommand{\headrulewidth}{0.4 pt} %modifica el ancho de las líneas de cabecera 
+\renewcommand{\footrulewidth}{0 pt} % el pie sin línea
+
+
+%\part{INTRODUCTION}
+
+%%%%%%%%%%%%%%% Chapters
+
+%introducci'on general 
+\include{chapters/Intro}
+
+
+%\part{ROS}
+
+% programaci'on de robots industriales
+\include{chapters/ROS}
+
+%\part{MOTION PLANNING}
+% programaci'on de robots industriales
+\include{chapters/Motion_Planning}
+%\include{1_robot_intro/CPR_introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\include{3_haptics_teleoperacion/4_arquitecturas_de_teleoperacion}
+
+%%%%%%%%%%%%%%%%% Exercises
+%\part{THE ALGORITHM}
+
+\include{chapters/Algorithm}
+
+\include{chapters/Experiments}
+
+\include{chapters/Conclusion}
+
+\include{chapters/Budget}
+
+%Configuración particular de las cabeceras y pies de página de los ejercicios
+
+%\renewcommand{\thechapter}{\roman{chapter}}
+%\def\chaptername{Exercises}
+%\setcounter{chapter}{0}
+%\renewcommand{\chaptermark}[1]{\markboth{Exercises \thechapter. #1}{}} %configuración de las cabeceras
+%\renewcommand{\sectionmark}[1]{\markright{Exercises \thechapter. #1}}
+%
+%% programaci'on de robots industriales
+%\include{1_robot_intro/CPR_introduction}
+%
+%\part{Laboratory exercises}
+%%pr�cticas
+%%\graphicspath{{./practicas/matlab/figures/}}
+%
+%\graphicspath{{./}}
+%
+%
+%%%%%%%%%%%%%%%%%% Exams
+%\part{Exams}
+%
+%%Configuración particular de las cabeceras y pies de página de los examenes
+%
+%\renewcommand{\thechapter}{\alph{chapter}}
+%\def\chaptername{Exams}
+%\setcounter{chapter}{0}
+%\renewcommand{\chaptermark}[1]{\markboth{Exams \thechapter. #1}{}} %configuración de las cabeceras
+%\renewcommand{\sectionmark}[1]{\markright{Exams \thechapter. #1}}
+%
+%%ex'amenes de rob'otica industrial
+%% programaci'on de robots industriales
+%\include{1_robot_intro/CPR_introduction}
+%
+%%%%%%%%%%%%%%%%% Appendix
+%\part{Appendix}
+%\begin {appendix}
+%%Configuración particular de las cabeceras y pies de página del appendix
+%\renewcommand{\chaptermark}[1]{\markboth{Appendix \thechapter. #1}{}} %configuración de las cabeceras
+%\renewcommand{\sectionmark}[1]{\markright{Appendix Section \thesection. #1}}
+%
+%% programaci'on de robots industriales
+%\include{1_robot_intro/CPR_introduction}
+%
+%\end{appendix}
+
+\backmatter
+
+%%%%%%%%%%%%%%%% Final del libro
+%índice de materias
+\printindex
+
+
+%es el turno de la bibliografía
+\bibliographystyle{plain}
+\nocite{*} % imprime toda la bibliografía, aunque no esté citada
+\bibliography{Bibliography}
+
+\end{document}
+
+
+
